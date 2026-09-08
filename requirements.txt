@@ -1,0 +1,22 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+pydantic[email]
+
+# Async database
+sqlalchemy[asyncio]>=2.0.36
+aiosqlite>=0.20.0
+
+# PostgreSQL (production)
+asyncpg>=0.30.0
+psycopg[binary]>=3.2.0
+
+# Cache & Message Broker
+redis[hiredis]>=5.2.0
+
+# Testing
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+httpx>=0.27.0
+anyio>=4.6.0
+
